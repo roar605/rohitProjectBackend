@@ -48,7 +48,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/auth", authRoute);
 
-app.listen(8800, () => {
+app.listen(8000, () => {
   connect();
   console.log("Connected to backend.");
 });
